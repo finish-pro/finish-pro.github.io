@@ -1,0 +1,477 @@
+/*БАЗОВЫЕ НАСТРОЙКИ*/
+* {
+	box-sizing: border-box;
+}
+html {
+	font-size: 10px;
+}
+body {
+	font-family: 'Raleway';
+	font-weight: 500;
+	width: 190rem;
+}
+button {
+	outline: none;
+}
+/*ОФОРМЛЕНИЕ ШАПКИ СРАНИЦЫ (header)*/
+header {
+	position: relative;
+	/*width: 190rem;*/
+	height: 86.2rem;
+	background: -webkit-linear-gradient(45deg, #0169b4 0%, #a72b8f 100%);
+ 	background: -moz-linear-gradient(45deg, #0169b4 0%, #a72b8f 100%);
+ 	background: -o-linear-gradient(45deg, #0169b4 0%, #a72b8f 100%);
+	background: -ms-linear-gradient(45deg, #0169b4 0%, #a72b8f 100%);
+	background: linear-gradient(45deg, #0169b4 0%, #a72b8f 100%);
+	color: #fff;
+	font-size: 3.4rem;
+}
+header > picture > img {
+	display: block;
+	position: absolute;
+	width: 5.5rem;
+	margin-left: 36.6rem;
+	margin-top: 11.5rem;
+}
+header > h1 {
+	display: inline-block;
+	position: relative;
+	left: 44.8rem;
+	top: 12.5rem;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: 300;
+}
+.header_semi-bold {
+	font-weight: 600;
+}
+header > nav {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin-left: 95.6rem;
+	margin-top: 12rem;
+	word-spacing: 5.4rem;
+}
+header > nav > ol > li {
+	display: inline-block;
+}
+header > nav > ol > li > a {
+	text-decoration: none;
+	font-size: 1.6rem;
+	text-transform: uppercase;
+	font-family: Montserrat;
+	font-weight: 400;
+	color: #fff;
+}
+.header_link:visited {
+	color: #fff;
+}
+.header_link:hover {
+	text-decoration: underline;
+}
+header > p {
+	position: absolute;
+	text-transform: uppercase;
+	font-size: 4.8rem;
+	line-height: 1.563;
+	font-weight: 300;
+	left: 37rem;
+	top: 32.5rem;
+}
+.header_bold {
+	font-weight: 700;
+}
+/*ОФОРМЛЕНИЕ ДОПОЛНИТЕЛЬНЫХ ПАНЕЛЕЙ (aside)*/
+aside {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+	width: 36.9rem;
+	height: 53.3rem;
+	text-align: center;
+	z-index: 5;
+}
+aside:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+aside > picture > img {
+	margin-top: 6.9rem;
+	width: 9rem;
+}
+aside > h3 {
+	color: #666666;
+	font-size: 3rem;
+	font-weight: 700;
+	margin-top: 2.8rem;
+}
+aside p {
+	color:  #878787;
+	font-size: 1.8rem;
+	margin-top: 4.2rem;
+	line-height: 1.667;
+}
+.button {
+	width: 17rem;
+	height: 4.8rem;
+	margin-top: 5.6rem;
+	border: solid 2px #cccccc;
+	border-radius: 50px;
+	background-color: #fff;
+	color: #999999;
+	font-size: 1.8rem;
+	font-weight: 600;
+}
+.button:hover {
+	background-color: #0169b4;
+	box-shadow: 0 0 20px #4daef7;
+	color: #fff;
+	border: none;
+}
+.aside_1 {
+	top: 66rem;
+	left: 36.6rem;
+}
+.aside_1 img {
+	width: 7rem;
+}
+.aside_2 {
+	top: 66rem;
+	left: 76.5rem;
+}
+.aside_2 button {
+	margin-top: 5.7rem;
+}
+.aside_3 img {
+	width: 9.5rem;
+}
+.aside_3 button {
+	margin-top: 5.9rem;
+}
+.aside_3 {
+	top: 66rem;
+	left: 116.4rem;
+}
+/*ОФОРМЛЕНИЕ ОСНОВНОГО КОНТЕНТА СТРАНИЦЫ(main)*/
+article {
+	position: relative;
+	background-color: #f5f5f5;
+}
+.article-1 {
+	/*width: 190rem;*/
+	height: 169.2rem;
+}
+.article-1__section-1 {
+	height: 92.8rem;
+}
+.article-1__section-1 h2 {
+	position: absolute;
+	color: #0169b4;
+	font-size: 5rem;
+	left: 36.2rem;
+	top: 54.5rem;
+}
+.article-1__section-1 p {
+	position: absolute;
+	color: #666666;
+	font-size: 1.8rem;
+	line-height: 1.667;
+	left: 36.2rem;
+	top: 63.8rem;
+}
+.article-1__section-1 button {
+	display: block;
+	position: absolute;
+	left: 36.3rem;
+	top: 78rem;
+	background-color: #f5f5f5;
+}
+.article-1__section-1::before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: 96.3rem;
+	top: 49.2rem;
+	width: 57rem;
+	height: 43.5rem;
+	background-color: #999999;
+}
+.article-1__section-2 h2 {
+	position: absolute;
+	color: #0169b4;
+	font-size: 5rem;
+	left: 36.2rem;
+	top: 110rem;
+}
+.article-1__section-2_block {
+	display: inline-block;
+	position: relative;
+	top: 28rem;
+	margin-right: -3px;
+	width: 25%;
+	height: 48.2rem;
+	background-color: #999999;
+}
+.article-2 {
+	/*width: 190rem;*/
+	height: 76rem;
+}
+.article-2 h2 {
+	position: absolute;
+	color: #0169b4;
+	font-size: 5rem;
+	left: 36.2rem;
+	top: 17rem;
+}
+.article-2 > section {
+	position: absolute;
+	display: inline-block;
+	width: 65rem;
+	height: 15rem;
+}
+.article-2__section-1 {
+	left: 36.2rem;
+	top: 27.5rem;
+}
+.article-2__section-2 {
+	left: 36.2rem;
+	top: 47rem;
+}
+.article-2__section-3 {
+	left: 106rem;
+	top: 27.5rem;
+}
+.article-2__section-4 {
+	left: 106rem;
+	top: 47rem;
+}
+.article-2 section h3 {
+	color: #333333;
+	font-size: 2.996rem;
+	line-height: 3;
+}
+.article-2 section p {
+	color: #878787;
+	font-size: 1.8rem;
+	line-height: 1.5;
+}
+.article-3 {
+	/*width: 190rem;*/
+	height: 60rem;
+	background-color: #fff;
+}
+.article-3 h2 {
+	position: absolute;
+	color: #0169b4;
+	font-size: 5rem;
+	left: 36.2rem;
+	top: 9rem;
+}
+.quotes {
+	font-family: 'Times New Roman';
+	font-size: 8rem;
+	color: #cccccc;
+	display: inline-block;
+	position: absolute;
+	left: 36rem;
+	top: 22rem;
+}
+.article-3 blockquote {
+	width: 61rem;
+	height: 14.4rem;
+	position: absolute;
+	left: 41.1rem;
+	top: 25rem;
+}
+.article-3 blockquote p {
+	color: #878787;
+	font-size: 1.798rem;
+	line-height: 1.665;
+}
+.article-3 blockquote cite {
+	color: #333333;
+	font-size: 1.8rem;
+	font-weight: 600;
+	line-height: 5;
+}
+.article-3 button {
+	position: absolute;
+	left: 76.4rem;
+	top: 40rem;
+}
+.article-3::before {
+	content: "";
+	display: block;
+	position: absolute;
+	right: 0;
+	width: 83.7rem;
+	height: 100%;
+	background-color: #999999;
+}
+.article-4 {
+	/*width: 190rem;*/
+	height: 77rem;
+}
+.article-4 h2 {
+	position: absolute;
+	color: #0169b4;
+	font-size: 5rem;
+	left: 36.2rem;
+	top: 17rem;
+}
+.article-4 section {
+	display: inline-block;
+	width: 38rem;
+	height: 36rem;
+	position: absolute;
+}
+.article-4__section-1 {
+	left: 36.2rem;
+	top: 27rem;
+}
+.article-4__section-2 {
+	left: 76.3rem;
+	top: 27rem;
+}
+.article-4__section-3 {
+	left: 116.2rem;
+	top: 27rem;
+}
+.article-4 section h3 {
+	display: inline-block;
+	color: #333333;
+	font-size: 2.4rem;
+	font-weight: 600;
+	line-height: 1.9;
+	margin-left: 2rem;
+}
+.time {
+	text-transform: uppercase;
+	color: #cccccc;
+	font-size: 5.998rem;
+	font-weight: 500;
+}
+.date {
+	display: inline-block;
+}
+.may {
+	font-size: 2.199rem;
+	display: block;
+	line-height: 2;
+}
+.article-4 section p {
+	color: #878787;
+	font-size: 1.8rem;
+	line-height: 1.667;
+	margin-top: 4rem;
+}
+.article-4 section button {
+	background-color: #f5f5f5;
+}
+/*ОФОРМЛЕНИЕ ПОДВАЛА СТРАНИЦЫ*/
+footer {
+	/*width: 190rem;*/
+	height: 51.4rem;
+	background: -webkit-linear-gradient(-135deg, #0169b4 0%, #a72b8f 100%);
+	background: -moz-linear-gradient(-135deg, #0169b4 0%, #a72b8f 100%);
+	background: -o-linear-gradient(-135deg, #0169b4 0%, #a72b8f 100%);
+	background: -ms-linear-gradient(-135deg, #0169b4 0%, #a72b8f 100%);
+	background: linear-gradient(225deg, #0169b4 0%, #a72b8f 100%);
+	overflow-y: hidden;
+	position: relative;
+}
+footer > nav > ol {
+	text-align: center;
+}
+footer > nav > ol > li {
+	display: inline-block;
+	margin-top: 7rem;
+	margin-right: 12rem;
+}
+footer nav ol li span::before {
+	content: "";
+	display: block;
+	border-radius: 50%;
+	border-width: 2px;
+	border-color:  #ffffff;
+	border-style: solid;
+	width: 6.6rem;
+	height: 6.6rem;
+	text-align: center;
+	line-height: 6.6rem;
+}
+.fa {
+	color: #fff;
+}
+.fa-map-marker {
+	font-size: 2.4rem;
+}
+.fa-envelope-o {
+	font-size: 2.2rem;
+}
+.fa-mobile {
+	font-size: 3.5rem;
+}
+.fa-fax {
+	font-size: 2rem;
+}
+footer nav li a {
+	text-decoration: none;
+	font-family: Montserrat;
+	color: #fff;
+	font-size: 1.4rem;
+	font-weight: 300;
+	display: block;
+	margin-top: 2rem;
+}
+footer nav ol:nth-child(2) li {
+	margin-top: 7rem;
+	margin-right: 4rem;
+}
+footer nav ol:nth-child(2) li span::before {
+	border: none;
+	font-size: 4.2rem;
+}
+.up {
+	display: block;
+	width: 16rem;
+	height: 16rem;
+	position: absolute;
+	bottom: -11rem;
+	left: 50%;
+	transform: translateX(-50%);
+	border-radius: 50%;
+	background-color: #fff;
+}
+.up::before {
+	content: "\f106";
+	font-family: FontAwesome;
+	color: #a72b8f;
+	font-size: 4.8rem;
+	display: block;
+	text-align: center;
+}
+@media (max-width: 	1366px) {
+	html {
+		font-size: 7.1px;	
+	}
+}
+@media (max-width: 	1024px) {
+	html {
+		font-size: 5.3px;
+	}
+}
+@media (max-width: 	768px) {
+	html {
+		font-size: 3.95px;
+	}
+}
+@media (max-width: 	480px) {
+	html {
+		font-size: 2.43px;
+	}
+	header > nav > ol > li > a {
+		font-size: 2.5rem;
+	}
+}
