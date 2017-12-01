@@ -116,7 +116,7 @@ aside p {
 	width: 17rem;
 	height: 4.8rem;
 	margin-top: 5.6rem;
-	border: solid 2px #cccccc;
+	border: solid 0.2rem #cccccc;
 	border-radius: 50px;
 	background-color: #fff;
 	color: #999999;
@@ -125,7 +125,7 @@ aside p {
 }
 .button:hover {
 	background-color: #0169b4;
-	box-shadow: 0 0 20px #4daef7;
+	box-shadow: 0 0 2rem #4daef7;
 	color: #fff;
 	border: none;
 }
@@ -393,7 +393,7 @@ footer nav ol li span::before {
 	content: "";
 	display: block;
 	border-radius: 50%;
-	border-width: 2px;
+	border-width: 0.2rem;
 	border-color:  #ffffff;
 	border-style: solid;
 	width: 6.6rem;
@@ -443,6 +443,7 @@ footer nav ol:nth-child(2) li span::before {
 	transform: translateX(-50%);
 	border-radius: 50%;
 	background-color: #fff;
+	outline: none;
 }
 .up::before {
 	content: "\f106";
@@ -455,6 +456,11 @@ footer nav ol:nth-child(2) li span::before {
 @media (max-width: 	1366px) {
 	html {
 		font-size: 7.1px;	
+	}
+}
+@media (max-width: 	1080px) {
+	html {
+		font-size: 5.59px;
 	}
 }
 @media (max-width: 	1024px) {
