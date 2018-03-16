@@ -202,7 +202,7 @@ article {
 	display: inline-block;
 	position: relative;
 	top: 28rem;
-	margin-right: -3px;
+	margin-right: -2px;
 	width: 25%;
 	height: 48.2rem;
 	background-color: #999999;
@@ -314,7 +314,7 @@ article {
 .article-4 section {
 	display: inline-block;
 	width: 38rem;
-	height: 36rem;
+	/*height: 36rem;*/
 	position: absolute;
 }
 .article-4__section-1 {
@@ -438,51 +438,4 @@ footer nav ol:nth-child(2) li span::before {
 }
 .link_up {
 	outline: none;
-}
-@media (max-width: 	1366px) {
-	html {
-		font-size: 7.1px;	
-	}
-}
-@media (max-width: 	1080px) {
-	html {
-		font-size: 5.59px;
-	}
-}
-@media (max-width: 	1024px) {
-	html {
-		font-size: 5.3px;
-	}
-}
-@media (max-width: 	768px) {
-	html {
-		font-size: 3.95px;
-	}
-}
-@media (max-width: 	480px) {
-	html {
-		font-size: 2.43px;
-	}
-	header > nav > ol > li > a {
-		font-size: 2.5rem;
-	}
-	.button {
-		border: solid 1px #cccccc;
-		font-size: 2.7rem;
-		width: 20rem;
-		height: 6rem;
-		font-weight: 400;
-	}
-	footer nav ol li span::before {
-		border: solid 1px #ffffff;
-		width: 10rem;
-		height: 10rem;
-		line-height: 10rem;
-	}
-	.fa {
-		font-size: 4.5rem;
-	}
-	footer nav li a {
-		font-size: 2.5rem;
-	}
 }
