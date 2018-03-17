@@ -17,10 +17,16 @@
 	html {
 		font-size: 5.3px;
 	}
+	.article-1__section-2_block {
+		margin-right: -1.2px;
+	}
 }
 @media (max-width: 	768px) {
 	html {
 		font-size: 3.95px;
+	}
+	.article-1__section-2_block {
+		margin-right: -0.9px;
 	}
 }
 @media (max-width: 	480px) {
@@ -29,6 +35,54 @@
 	}
 	header > nav > ol > li > a {
 		font-size: 2.5rem;
+	}
+	.list_menu_1 {
+		display: none;
+	}
+	.list_menu_2 {
+		transform: translateX(100%);
+		transition: all 0.2s;
+	}
+	.hamburger {
+		position: fixed;
+		top: 30rem;
+		right: 20rem;
+		background-color: #fff;
+		border-radius: 50%;
+		width: 25rem;
+		height: 25rem;
+		padding-top: 6.75rem;
+		box-shadow: 0px 0px 25px 0px rgba(219, 219, 219, 0.5);
+		z-index: 99;
+	}
+	.hamburger span {
+		display: block;
+		margin: 6px auto;
+		background-color: #0023ff;
+		height: 2px;
+		width: 50%;
+	}
+	#main-menu:target {
+		transform: translateX(0);
+	}
+	header > nav {
+		position: fixed;
+		height: 130vh;
+    	width: 190rem;
+    	background: linear-gradient(45deg, #0169b4 0%, #a72b8f 100%);
+    	z-index: 99;
+    	margin-left: 0;
+    	margin-top: 0;
+	}
+	.list_menu_2 ol {
+		text-align: center;
+	}
+	.list_menu_2 li {
+		display: block;
+    	margin-top: 25rem;
+	}
+	header > nav > ol > li > a {
+		font-size: 6.5rem;
 	}
 	.button {
 		border: solid 1px #cccccc;
