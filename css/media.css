@@ -33,16 +33,6 @@
 	html {
 		font-size: 2.43px;
 	}
-	header > nav > ol > li > a {
-		font-size: 2.5rem;
-	}
-	.list_menu_1 {
-		display: none;
-	}
-	.list_menu_2 {
-		transform: translateX(100%);
-		transition: all 0.2s;
-	}
 	.hamburger {
 		position: fixed;
 		top: 30rem;
@@ -62,9 +52,6 @@
 		height: 2px;
 		width: 50%;
 	}
-	#main-menu:target {
-		transform: translateX(0);
-	}
 	header > nav {
 		position: fixed;
 		height: 130vh;
@@ -73,16 +60,21 @@
     	z-index: 99;
     	margin-left: 0;
     	margin-top: 0;
+    	transform: translateX(101%);
+		transition: all 0.2s;
 	}
-	.list_menu_2 ol {
+	.list_menu ol {
 		text-align: center;
 	}
-	.list_menu_2 li {
+	.list_menu li {
 		display: block;
     	margin-top: 25rem;
 	}
 	header > nav > ol > li > a {
 		font-size: 6.5rem;
+	}
+	#main-menu:target {
+		transform: translateX(0);
 	}
 	.button {
 		border: solid 1px #cccccc;
